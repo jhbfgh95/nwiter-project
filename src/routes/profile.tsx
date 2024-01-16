@@ -5,7 +5,6 @@ import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { updateProfile } from "firebase/auth";
 import {
   collection,
-  getDoc,
   getDocs,
   limit,
   orderBy,

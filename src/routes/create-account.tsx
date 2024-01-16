@@ -13,10 +13,6 @@ import {
   Wrapper,
 } from "../components/auth-components";
 
-const errors = {
-  "Firebase: Error (auth/invalid-email).": "That Email is invaild",
-};
-
 export default function CreateAccount() {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
